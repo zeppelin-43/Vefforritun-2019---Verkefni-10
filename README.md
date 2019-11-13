@@ -29,6 +29,8 @@ Dæmi um svar frá vefþjón er að finna í apod.json
 ```
 media_type getur verið `image` eða `video`. Hægt er að næla sér í aukastig ef passað er að myndskeið verði birt rétt í þau fáu skipti sem APOD skilar myndskeiði í staðin fyrir mynd. (sjá mat).
 
+elsta dagsetningin sem APINN býður uppá er 16. júní 1995. Svo þið þurfið að velja einhverja dagsetningu af handahófi á milli 16. júní 1995 og deginum í dag (hvaða dagur sem það nú er).
+
 
 ## Forsíða
 
