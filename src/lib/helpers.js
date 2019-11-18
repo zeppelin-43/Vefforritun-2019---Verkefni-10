@@ -38,3 +38,14 @@ export function el(name, ...children) {
 export function randomNumber(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
+
+export function randomDate() {
+  // const start = new Date();
+  const start = new Date(1995, 5, 16);
+  const end = new Date();
+  const date = new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime()));
+  const month = `${date.getMonth() + 1}`;
+  const day = `${date.getDate()}`;
+  const year = date.getFullYear();
+  return [year, month, day].join('-');
+}
